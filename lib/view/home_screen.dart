@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: true,
       ),
       body: ListView.builder(
-        //itemCount: decodedData.length,
+        itemCount: decodedData.length,
         itemBuilder: (context, index) => ListTile(
           title: Text(decodedData["time"]["updated"].toString()),
           subtitle: Text(decodedData["time"]["updateduk"].toString()),

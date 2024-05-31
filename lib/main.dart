@@ -1,4 +1,4 @@
-import 'package:api_crudapp/view/home_screen.dart';
+import 'package:api_crudapp/view/api_crud_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      //home: HomeScreen(),
+      home: CrudScreen(),
     );
   }
 }
